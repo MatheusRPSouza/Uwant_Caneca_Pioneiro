@@ -1,0 +1,2 @@
+# robots.txt file of http://***ALTERAR***.com/
+sitemap: http://***ALTERAR***.com/sitemap.xml

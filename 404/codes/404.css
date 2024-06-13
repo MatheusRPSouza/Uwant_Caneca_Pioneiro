@@ -1,0 +1,28 @@
+
+/* Tamanho xs (0px à 575px) - GLOBAL */
+
+
+/* Tamanho sm  (576px à 767px) */
+@media (min-width: 576px) { 
+
+}
+
+/* Tamanho md (768px à 991px) */
+@media (min-width: 768px) { 
+
+}
+
+/* Tamanho lg (992px à 1199px) */
+@media (min-width: 992px) { 
+
+}
+
+/* Tamanho xl (1200px à 1399px) */
+@media (min-width: 1200px) { 
+
+}
+
+/* Tamanho xxl (1400px à infinite) */
+@media (min-width: 1400px) { 
+
+}

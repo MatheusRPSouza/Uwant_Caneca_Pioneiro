@@ -1,0 +1,65 @@
+    <header class="bg-primary">Cabeçalho</header>
+    <nav class="bg-secondary">Navegação</nav>
+    <section class="bg-warning">Seção</section>
+    <main class="bg-danger">Principal</main>
+    <aside class="bg-secondary">Aside Conteúdo secundário, relacionado com o principal</aside>
+    <mark>Marcação - Destacar um texto para o usuário!</mark>
+    <article class="bg-primary">Artigo - Geralmente dentro de uma section e uma main.</article>
+    <footer class="bg-info">Rodapé</footer>
+    <time datetime="2024-03-15T12:00:00:00">Dia 15 de Março de 2024 às 12:00 horas</time>
+    <progress min="0" max="100" value="30">Não aparece texto, mas pode ser inserido para leitores de tela.</progress>
+    <meter min="0" max="100" value="30">Também não aparece mas geralmente é para referir-se à tamanho.</meter>
+    <details>
+        <summary>Informações escondidas.</summary>
+        <p>Parágrafo ou qualquer conteúdo que aparece quando clica no sumário.</p>
+    </details>
+    <br /> Pula linha
+    <abbr title="Matheus Rogério Pereira de Souza">MRPDS</abbr> - Se passar o mouse, aparece o significado. Pode ser usado como uma espécie de dicionário.
+    <br /> Pula linha | 
+    <kbd>Alt</kbd> + <kbd>F4</kbd> vai apagar.
+    <br /> Pula linha | 
+    <code>Código de programação ou script.</code>
+    <br /> Pula linha | 
+    <samp>Geralmente acompanhado com o 'code', deve apresentar o resultado do script.</samp>
+    <br /> Pula linha | 
+    <address>
+        <p>Nome da empresa</p>
+        <p>Rua Exemplo, 123</p>
+        <p>Cidade, Estado</p>
+        <p>CEP: 87020-230</p>
+        <p>E-mail: matheusrpdsouza@gmail.com</p>
+        <p>Telefone: 75 991 840 745</p>
+    </address>
+    <br /> Pula linha | 
+    <strong>Texto forte</strong>
+    <br /> Pula linha | 
+    <small>Texto pequeno - talvez para uma nota de rodapé. </small>
+    <br /> Pula linha | 
+    <em>Texto em itálico!</em>
+    <br /> Pula linha | 
+    <del>Texto apagado</del>
+    <ins>Texto adicionado</ins>
+    <br /> Pula linha |
+    <figure>
+        <img src="" alt="" />
+        <figcaption>Legenda da imagem</figcaption>
+    </figure> 
+    <br /> Pula linha | 
+    <blockquote>
+        Citações
+        <cite>Autor</cite>
+    </blockquote>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Antônio Oliveira</td>
+                <td>22 anos</td>
+            </tr>
+        </tbody>
+    </table>

@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+.font-propaganet
+{
+  font-family: "Exo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.font-propaganet-strong
+{
+  font-family: "Exo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.font-propaganet-strong-2
+{
+  font-family: "Exo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-georama {
+  font-family: "Georama", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* navbar */
+#navbar, .navbar
+{
+  background-image: 
+  linear-gradient(to bottom left, var(--color-bg-header-1-mrpds), var(--color-bg-header-2-mrpds));
+  min-height: 50px;
+}
+
+figcaption
+{
+  padding: auto 0 !important;
+}
+
+
+:root
+{
+  /* header com degradê */
+  --color-bg-header-1-mrpds: #ffffff !important;
+  --color-bg-header-2-mrpds: #ffffff !important;
+
+  /* herobanner com degradê */
+  --color-bg-herobanner-1-mrpds: #feaa60 !important;
+  --color-bg-herobanner-2-mrpds: #fea95f !important;
+
+  /* Cor de Destaque, mais usada no site */
+  --color-primary-mrpds: #1a4d8b !important;
+  --color-text-primary-mrpds: #ffffff !important;
+  --strong-color-primary-mrpds: #12355f !important;
+  --strong-text-color-primary-mrpds: #ffffff !important;
+  --strong-2-color-primary-mrpds: #071729 !important;
+  --strong-2-color-text-primary-mrpds: #ffffff !important;
+
+  /* Cor de Destaque, menos usada no site */
+  --color-secondary-mrpds:#ffffff !important;
+  --color-text-secondary-mrpds: var(--color-primary-mrpds) !important;
+  --strong-color-secondary-mrpds:#d8d7d7 !important;
+  --strong-color-text-secondary-mrpds:var(--color-primary-mrpds) !important;
+  --strong-2-color-secondary-mrpds:#aaaaaa !important;
+  --strong-2-color-text-secondary-mrpds: var(--color-primary-mrpds) !important;
+
+  /* Cores de Botões CTA */
+  --color-btn-primary-mrpds: #6bb70b;
+  --color-btn-primary-focus-mrpds: #4d8806;
+  --color-btn-text-primary-mrpds: #ffffff;
+
+  /* Cores de Botões secundários */
+  --color-btn-secondary-mrpds: #6bb70b;
+  --color-btn-secondary-focus-mrpds: #4d8806;
+  --color-btn-text-secondary-mrpds: #ffffff;
+  
+  /* Border Radius */
+  --border-radius-mrpds: 5px !important;
+
+  /* Color PropagaNet */
+  --bg-propaganet: #00766a;
+  --txt-propaganet: #ffffff;
+}
+
+/* Biblioteca Pessoal MRPDS - Não mexer! */
+
+/* Tamanho xs (0px à 575px) - GLOBAL */
+
+h1.invisible
+{
+  margin-top: -10px;
+  line-height: 0;
+}
+
+.perfil-img-mrpds {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* Cor de fundo para visualização do círculo */
+}
+
+.perfil-img-mrpds img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.txt-primary-mrpds
+{
+  color: var(--color-primary-mrpds);
+}
+.txt-secondary-mrpds
+{
+  color: var(--color-secondary-mrpds);
+}
+
+.bg-primary-mrpds
+{
+  background-color: var(--color-primary-mrpds);
+  color: var(--color-text-primary-mrpds);
+  border: 0;
+}
+
+.bg-strong-primary-mrpds
+{
+  background-color: var(--strong-color-primary-mrpds);
+  color: var(--strong-color-text-primary-mrpds);
+  border: 0;
+}
+
+.bg-strong-2-primary-mrpds
+{
+  background-color: var(--strong-2-color-primary-mrpds);
+  color: var(--strong-2-color-text-primary-mrpds);
+  border: 0;
+}
+
+.bg-secondary-mrpds
+{
+  background-color: var(--color-secondary-mrpds);
+  color: var(--color-text-secondary-mrpds);
+  border: 0;
+}
+
+.bg-strong-secondary-mrpds
+{
+  background-color: var(--strong-color-secondary-mrpds);
+  color: var(--strong-color-text-secondary-mrpds);
+  border: 0;
+}
+
+.bg-strong-2-secondary-mrpds
+{
+  background-color: var(--strong-2-color-secondary-mrpds);
+  color: var(--strong-2-color-text-secondary-mrpds);
+  border: 0;
+}
+
+/* BTN Primary */
+.btn-color-primary-mrpds
+{
+  background-color: var(--color-btn-primary-mrpds);
+  color: var(--color-btn-text-primary-mrpds);
+  transition: background-color .5s;
+  border: 0;
+}
+
+.btn-color-primary-mrpds:hover, 
+.btn-color-primary-mrpds:focus
+{
+  background-color: var(--color-btn-primary-focus-mrpds);
+  color: var(--color-btn-text-primary-mrpds);
+  border: 0;
+}
+
+/* BTN Secondary */
+.btn-color-secondary-mrpds
+{
+  background-color: var(--color-btn-secondary-mrpds);
+  color: var(--color-btn-text-secondary-mrpds);
+  transition: background-color .5s;
+  border: 0;
+}
+
+.btn-color-secondary-mrpds:hover, 
+.btn-color-secondary-mrpds:focus
+{
+  background-color: var(--color-btn-secondary-focus-mrpds);
+  color: var(--color-btn-text-secondary-mrpds);
+  border: 0;
+}
+
+.btn-mrpds
+{
+  max-width: 150px;
+  border-radius: var(--border-radius-mrpds);
+}
+
+/* Tamanho sm  (576px à 767px) */
+@media (min-width: 576px) { 
+
+  .btn-mrpds
+  {
+    max-width: 200px;
+    border-radius: var(--border-radius-mrpds);
+  }
+
+}
+
+/* Tamanho md (768px à 991px) */
+@media (min-width: 768px) { 
+
+  .btn-mrpds
+  {
+    max-width: 300px;
+    border-radius: var(--border-radius-mrpds);
+  }
+  
+}
+
+/* Tamanho lg (992px à 1199px) */
+@media (min-width: 992px) { 
+
+    .btn-mrpds
+    {
+      max-width: 400px;
+      border-radius: var(--border-radius-mrpds);
+    }
+
+}
+
+/* Tamanho xl (1200px à 1399px) */
+@media (min-width: 1200px) { 
+
+    .btn-mrpds
+    {
+      max-width: 500px;
+      border-radius: var(--border-radius-mrpds);
+    }
+    
+
+}
+
+/* Tamanho xxl (1400px à infinite) */
+@media (min-width: 1400px) { 
+
+    .btn-mrpds
+    {
+      max-width: 600px;
+      border-radius: var(--border-radius-mrpds);
+    }
+    
+
+}
+
+/* Não acrescentar nada abaixo desta linha! */
