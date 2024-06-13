@@ -32,11 +32,10 @@
 }
 
 /* navbar */
-#navbar, .navbar
+#navbar div:first, .navbar div:first
 {
-  background-image: 
-  linear-gradient(to bottom left, var(--color-bg-header-1-mrpds), var(--color-bg-header-2-mrpds));
-  min-height: 50px;
+  background-color: #ad93d8;
+  min-height: 5px;
 }
 
 figcaption
@@ -56,7 +55,7 @@ figcaption
   --color-bg-herobanner-2-mrpds: #fea95f !important;
 
   /* Cor de Destaque, mais usada no site */
-  --color-primary-mrpds: #1a4d8b !important;
+  --color-primary-mrpds: #ae95d9 !important;
   --color-text-primary-mrpds: #ffffff !important;
   --strong-color-primary-mrpds: #12355f !important;
   --strong-text-color-primary-mrpds: #ffffff !important;
@@ -64,7 +63,7 @@ figcaption
   --strong-2-color-text-primary-mrpds: #ffffff !important;
 
   /* Cor de Destaque, menos usada no site */
-  --color-secondary-mrpds:#ffffff !important;
+  --color-secondary-mrpds:#f3bbf0 !important;
   --color-text-secondary-mrpds: var(--color-primary-mrpds) !important;
   --strong-color-secondary-mrpds:#d8d7d7 !important;
   --strong-color-text-secondary-mrpds:var(--color-primary-mrpds) !important;
@@ -72,8 +71,8 @@ figcaption
   --strong-2-color-text-secondary-mrpds: var(--color-primary-mrpds) !important;
 
   /* Cores de Botões CTA */
-  --color-btn-primary-mrpds: #6bb70b;
-  --color-btn-primary-focus-mrpds: #4d8806;
+  --color-btn-primary-mrpds: #ad93d8;
+  --color-btn-primary-focus-mrpds: #a17fd7;
   --color-btn-text-primary-mrpds: #ffffff;
 
   /* Cores de Botões secundários */
@@ -82,7 +81,7 @@ figcaption
   --color-btn-text-secondary-mrpds: #ffffff;
   
   /* Border Radius */
-  --border-radius-mrpds: 5px !important;
+  --border-radius-mrpds: 25px !important;
 
   /* Color PropagaNet */
   --bg-propaganet: #00766a;
@@ -203,8 +202,10 @@ h1.invisible
 
 .btn-mrpds
 {
+  --tempo: .8s;
   max-width: 150px;
   border-radius: var(--border-radius-mrpds);
+  transition: width var(--tempo), min-width var(--tempo), max-width var(--tempo);
 }
 
 /* Tamanho sm  (576px à 767px) */

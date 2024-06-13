@@ -1,10 +1,35 @@
 
 /* Tamanho xs (0px à 575px) - GLOBAL */
 
+.enfeite
+{
+    background-image: linear-gradient(to bottom left, var(--color-primary-mrpds), var(--color-secondary-mrpds));
+    min-height: 10px;
+}
+
+.enfeite-2
+{
+    background-image: linear-gradient(to bottom left, var(--color-primary-mrpds), var(--color-secondary-mrpds));
+    min-height: 2px;
+}
 
 /* Tamanho sm  (576px à 767px) */
 @media (min-width: 576px) { 
 
+    #canecas_personalizadas-1 h1,
+    #canecas_personalizadas-2 h2
+    #canecas_personalizadas-3 h3
+    {
+        font-size: 3vw !important;
+    }
+
+
+
+    #canecas_personalizadas-1 * span
+    {
+        color: gray;
+        font-size: 1.5vw;
+    }
 }
 
 /* Tamanho md (768px à 991px) */
